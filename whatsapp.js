@@ -25,18 +25,18 @@ function testLink() {
 	var n=$("result").value;
 	window.open(n,"_blank")
 }
-function downloadQR() {
-	var n=$("link"),
-	e=$("nomor").value+".png";
-	n.setAttribute("download",e),
-	n.setAttribute("href",canvas.toDataURL("image/png").replace("image/png","image/octet-stream")),
-	n.click()
-}
+//function downloadQR() {
+//	var n=$("link"),
+//	e="QR Code Link Whatsapp "+$("nomor").value+".png";
+//	n.setAttribute("download",e),
+//	n.setAttribute("href",canvas.toDataURL("image/png").replace("image/png","image/octet-stream")),
+//	n.click()
+//}
 function resetQR() {
 	window.location.href=window.location.href
 }
 window.onload=function() {
-	  //  $("nomor").focus()
+	    $("nomor").focus()
 	    $("generate-wa").onclick=getQR,
 	    $("copy-link").onclick=copyLink,
 	    $("download-qr").onclick=downloadQR,
