@@ -19,19 +19,19 @@ function getQR(n) {
 function copyLink() {
 	$("result").select(),
 	    document.execCommand("copy");
-	     // $("keterangan-tercopy").classList.toggle('d-none'); //
+	     // $("keterangan-tercopy").classList.toggle('d-none');
 }
 function testLink() {
 	var n=$("result").value;
 	window.open(n,"_blank")
 }
-function downloadQR() {
-	var n=$("link"),
-	        e="QR Code Link Whatsapp "+$("nomor").value+".png";
-	n.setAttribute("download",e),
-	          n.setAttribute("href",canvas.toDataURL("image/png").replace("image/png","image/octet-stream")),
-	          n.click()
-}
+// function downloadQR() {
+	// var n=$("link"),
+	       // e="QR Code Link Whatsapp "+$("nomor").value+".png";
+	// n.setAttribute("download",e),
+	        //  n.setAttribute("href",canvas.toDataURL("image/png").replace("image/png","image/octet-stream")),
+	        //  n.click()
+// }
 function resetQR() {
 	window.location.href=window.location.href
 }
