@@ -19,7 +19,7 @@ function getQR(n) {
 function copyLink() {
 	$("result").select(),
 	    document.execCommand("copy");
-	      $("keterangan-tercopy").classList.toggle('d-none');
+	     // $("keterangan-tercopy").classList.toggle('d-none'); //
 }
 function testLink() {
 	var n=$("result").value;
