@@ -1,4 +1,3 @@
-
 var urlBlog = 'https://www.fazriansyah.eu.org/';
 var license = $('#license-code').text();
   var informasibatas = '<style>body{background:#fff}#peringatan span{font-size:50px}#peringatan{z-index:99999;position:fixed;top:0;right:0;left:0;height:30%;text-align:center;background:rgba(235, 0, 0, 1);border:5px solid #444;color:#fff;padding:20px;font-family:monospace;border-radius:10px}#peringatan h4{font-size:20px}</style><div id="peringatan"><h4>Activate Templates</h4><p>Untuk mendapatkan lisensi Anda bisa menghubungi Admin www.fazriansyah.eu.org | +1 (401) 684 0293 </p><span id="batas-waktu-template">20</span></div>';
