@@ -42,4 +42,4 @@ window.onload=function() {
 	    $("download-qr").onclick=downloadQR,
 	    $("test-link").onclick=testLink,
 	    $("reset-qr").onclick=resetQR
-}
+};
